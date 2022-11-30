@@ -48,7 +48,7 @@ function App() {
   return (
     <div style={{ backgroundImage : `url(${background})` ,backgroundSize : '100% 100%', height : '100vh'  }}>
       <box className='input_div' >
-        <h1 style={{marginTop : '0px' ,paddingTop : '70px'}}>Weather App</h1>
+        <h1 className='h1'>Weather App</h1>
         <div className='input_div'>
           <input
             className="input_tag"
